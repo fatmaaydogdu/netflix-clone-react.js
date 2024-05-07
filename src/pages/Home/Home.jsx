@@ -7,6 +7,7 @@ import info_icon from "../../assets/info_icon.png";
 
 import Navbar from "../../components/Navbar/Navbar";
 import TitleCards from "../../components/TitleCards/TitleCards";
+import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
     <div className="home">
@@ -34,6 +35,7 @@ const Home = () => {
         <TitleCards title={"Upcoming"}/>
         <TitleCards title={"Top Pics for You"}/>
       </div>
+      <Footer />
     </div>
   );
 };
